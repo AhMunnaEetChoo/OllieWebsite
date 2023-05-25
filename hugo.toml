@@ -1,0 +1,15 @@
+baseURL = 'http://olliepowell.ddns.net/'
+languageCode = 'en'
+title = 'Ollie Powell'
+theme = 'risotto'
+paginate = 3
+
+[params.theme]
+palette = "tokyo-night-dark"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/posts/about/"
+    weight = 10
