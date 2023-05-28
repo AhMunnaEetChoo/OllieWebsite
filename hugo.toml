@@ -33,7 +33,15 @@ icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:olliepowellemail@gmail.com"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/olliepowell/"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-itch-io"
+title = "Itch.io"
+url = "https://ahchoo.itch.io/"
 
 [params]
 noindex = false
