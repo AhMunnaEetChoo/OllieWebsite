@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://olliepowell.ddns.net/categories/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>http://olliepowell.ddns.net/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://olliepowell.ddns.net/tags/</loc>
+    <loc>/tags/articles/</loc>
+  </url><url>
+    <loc>/articles/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/posts/</loc>
+  </url><url>
+    <loc>/posts/</loc>
+  </url><url>
+    <loc>/tags/projects/</loc>
+  </url><url>
+    <loc>/projects/</loc>
+  </url><url>
+    <loc>/series/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

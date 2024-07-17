@@ -1,9 +1,11 @@
-baseURL = 'http://olliepowell.ddns.net/'
+baseURL = '/'
 languageCode = 'en'
 title = 'Ollie Powell'
 theme = 'risotto'
 paginate = 3
 copyright = "© 2023"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
 
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
@@ -15,7 +17,7 @@ sectionPagesMenu = "main"
 # Sidebar: about/bio
 [params.about]
 title = "Ollie Powell"
-description = "Game dev junk"
+description = "Games Programmer"
 
 
 # Sidebar: social links
@@ -53,7 +55,7 @@ palette = "tokyo-night-dark"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/posts/about/"
+    url = "/about/"
     weight = 10
 
 
@@ -70,6 +72,9 @@ series = "series"
     startLevel = 2
     endLevel   = 3
     ordered    = true
+
+  [markup.highlight]
+  noClasses = false
 
 [privacy]
 
