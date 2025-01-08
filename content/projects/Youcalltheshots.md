@@ -7,11 +7,11 @@ Our entry for Ludum Dare 51. 'You Call The Shots! is a rhythm-action-meets-movie
 
 <iframe frameborder="0" src="https://itch.io/embed/1730701?dark=true" width="552" height="167"><a href="https://ahchoo.itch.io/you-call-the-shots">📺 You Call The Shots! by Choo</a></iframe>
 
-Techn side one of the biggest challenges was handling web streamed video while keeping synchronisation with rhythm markers. Videos need to be uploaded and hosted separately to the game - a requirement of the version of Unity we were using at the time. Their contents continually queried each frame to manage synchronisation. 
+Tech side one of the biggest challenges was synchronising web streamed video with rhythm markers. Videos need to be uploaded and hosted separately to the game - a requirement of the version of Unity we were using at the time. Their contents continually queried each frame to manage synchronisation. 
 
-We also got our markup data to a great place to create new videos and QTE events. A small json data file was hosted separately to the game so it was trivial to extend or tweak the game. We did wonder if we could follow the game up with an online level editor - make your own film clip QTEs of whatever content you like.
+We also got our markup data to a great place to create new videos and QTE events. A small JSON data file was hosted separately so it was trivial to extend or tweak the levels. We did wonder if we could follow the game up with an online level editor - make your own film clip QTEs of whatever content you like!
 
-After the game jam we got a friendly message from a gaming community in Brooklyn 'Potions & Pixels' who wanted to feature the game on their custom hand-built arcade machines! It was super cool to see people playing our 3 day game jam game on an arcade machine.
+After the game jam we got a friendly message from a gaming community in Brooklyn 'Potions & Pixels' who wanted to feature YCTS on their custom hand-built arcade machines! It was super cool to see people playing our 3 day creation on an arcade machine.
 
 <p>
 <center>
