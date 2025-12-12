@@ -2,10 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projects on Ollie Powell</title>
-    <link>/projects/</link>
+    <link>//localhost:1313/projects/</link>
     <description>Recent content in projects on Ollie Powell</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2023</copyright><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023</copyright>
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bastard Sword</title>
+      <link>//localhost:1313/projects/bastardsword/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/bastardsword/</guid>
+      <description>&lt;p&gt;A prototype concept developed in pico-8. Action games rarely lean into physics simulations for combat. Opting for controlled fixed animation sequences and predefined &amp;lsquo;hit boxes&amp;rsquo;. The idea behind Bastard Sword was to find fun and &amp;lsquo;game feel&amp;rsquo; with some simple 2D physics.&lt;/p&gt;&#xA;&lt;p&gt;The main character and sword tip are treated as particles with their own individual weight connected via stiff rod. Applying impulses over a few frames on the sword tip perpendicular to this connection produced the nice swing you can see in the gifs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Male Pattern Boldness (LD50 Game Jam)</title>
+      <link>//localhost:1313/projects/malepatternboldness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/malepatternboldness/</guid>
+      <description>&lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/1471737?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&lt;a href=&#34;https://ahchoo.itch.io/male-pattern-boldness&#34;&gt;Male Pattern Boldness by Choo&lt;/a&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;👨‍🦲Oh no, you&amp;rsquo;re losing your hair!&#xA;But perhaps you can use something around to cover it up…&lt;/p&gt;&#xA;&lt;p&gt;5 levels, 5 life events, you can do it!&lt;/p&gt;&#xA;&lt;p&gt;Entered into Ludum Dare 50 with Adam Butcher, Tom Carrell and James Pearson. MPB was made in 3 days. It was our first bash at entering a game jam and we had a whole bunch of fun telling the story of baldo (a returning character!). Also Tom was really cooking with the music, it&amp;rsquo;s a tune that live in your head a long time, you have been warned!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mr Speech: The Purr-fect Pitch! (LD53 Game Jam)</title>
+      <link>//localhost:1313/projects/mrspeech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/mrspeech/</guid>
+      <description>&lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/2046640?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&lt;a href=&#34;https://ahchoo.itch.io/mr-speech-the-purr-fect-pitch&#34;&gt;🗣️ MR SPEECH: The Purr-fect Pitch by Choo&lt;/a&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Night Mares! (Tiny Horse Game Jam 2)</title>
+      <link>//localhost:1313/projects/nightmares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/nightmares/</guid>
+      <description>&lt;p&gt;Our entry for the Tiny Horse Game Jam 2. This was a non-competitive jam, the community were so friendly and supportive it was almost embarrassing to have the only violent game of the jam! Though we like to think that added some variety in the mix.&lt;/p&gt;&#xA;&lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/4077476?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&lt;a href=&#34;https://nationalvelvett.itch.io/night-mares&#34;&gt;Night Mares by NationalVelvett, Woolly Owl&lt;/a&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;Art by Sara. Game code by myself. Sara even set us up with an online leaderboard!&lt;/p&gt;&#xA;&lt;p&gt;Horses with guns was already a winning combo but we added the idea of coop weapon synergies to the mix.&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/IyM1Kw4bUoU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stretchmancer (LD54 Game Jam)</title>
+      <link>//localhost:1313/projects/stretchmancer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/stretchmancer/</guid>
+      <description>&lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/2294132?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&lt;a href=&#34;https://ahchoo.itch.io/stretchmancer&#34;&gt;Stretchmancer by Choo, AdamButcher&lt;/a&gt;&lt;/iframe&gt;&#xA;&lt;iframe src=&#34;https://store.steampowered.com/widget/2929290/&#34; frameborder=&#34;0&#34; width=&#34;646&#34; height=&#34;190&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>You Call The Shots! (LD51 Game Jam)</title>
+      <link>//localhost:1313/projects/youcalltheshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/youcalltheshots/</guid>
+      <description>&lt;p&gt;Our entry for Ludum Dare 51. &amp;lsquo;You Call The Shots! is a rhythm-action-meets-movie-trivia game. The game takes roughly 5 mins to play so give it a go!&lt;/p&gt;&#xA;&lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/1730701?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&lt;a href=&#34;https://ahchoo.itch.io/you-call-the-shots&#34;&gt;📺 You Call The Shots! by Choo&lt;/a&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;Tech side one of the biggest challenges was synchronising web streamed video with rhythm markers. Videos need to be uploaded and hosted separately to the game - a requirement of the version of Unity we were using at the time. Their contents continually queried each frame to manage synchronisation.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

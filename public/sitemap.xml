@@ -2,26 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/posts/auseforbubblesort/</loc>
   </url><url>
-    <loc>/tags/articles/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>/articles/</loc>
+    <loc>//localhost:1313/projects/bastardsword/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/tags/posts/</loc>
+    <loc>//localhost:1313/posts/fuguemachine/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/home/</loc>
   </url><url>
-    <loc>/tags/projects/</loc>
+    <loc>//localhost:1313/posts/jurassicworld/</loc>
   </url><url>
-    <loc>/projects/</loc>
+    <loc>//localhost:1313/projects/malepatternboldness/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>//localhost:1313/projects/mrspeech/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/posts/superhexagon/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/planetzoo/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/posts/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/projects/</loc>
+  </url><url>
+    <loc>//localhost:1313/series/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/stretchmancer/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/nightmares/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/youcalltheshots/</loc>
   </url>
 </urlset>

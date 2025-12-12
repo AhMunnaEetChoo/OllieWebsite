@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>posts on Ollie Powell</title>
-    <link>/tags/posts/</link>
-    <description>Recent content in posts on Ollie Powell</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Posts on Ollie Powell</title>
+    <link>//localhost:1313/tags/posts/</link>
+    <description>Recent content in Posts on Ollie Powell</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2023</copyright><atom:link href="/tags/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023</copyright>
+    <atom:link href="//localhost:1313/tags/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>posts</title>
-      <link>/posts/</link>
+      <link>//localhost:1313/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/</guid>
+      <guid>//localhost:1313/posts/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
