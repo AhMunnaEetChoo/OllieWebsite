@@ -1,0 +1,14 @@
+
+heavily inspired by this portfolio:
+
+https://github.com/isadorasophia/website
+
+use powershell.
+
+follow guidance here for hugo:
+https://gohugo.io/getting-started/quick-start/
+
+run a local server and let it live refresh
+
+use github pages is the host and is linked to olliepowell.ddns.net
+after pushing changes to git run the 'deploy hugo site to Pages' workflow
