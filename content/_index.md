@@ -1,8 +1,9 @@
 
-# Welcome!
+# Ollie Powell
 
-Hi, welcome to the website of Ollie Powell. 
+> Games Programmer and Cofounder of Triangle Wave.
 
-I'm building Stretchmancer with talented friends. A funny first-person puzzler with a unique world-bending mechanic. Think Portal meets Star fox 64! Check it out and wishlist if it takes your fancy. We'd much appreciate your support 🙏
+We're building Stretchmancer!
+A funny first-person puzzler with a unique world-bending mechanic. Think Portal meets Star fox 64!
 
 <iframe src="https://store.steampowered.com/widget/2929290/" frameborder="0" width="646" height="190"></iframe>
