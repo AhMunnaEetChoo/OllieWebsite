@@ -4,9 +4,12 @@
     <title>Categories on Ollie Powell</title>
     <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Ollie Powell</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023</copyright>
+    <managingEditor>olliepowellemail@gmail.com (Ollie Powell)</managingEditor>
+    <webMaster>olliepowellemail@gmail.com (Ollie Powell)</webMaster>
+    <copyright>(c) 2023 Ollie Powell</copyright>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

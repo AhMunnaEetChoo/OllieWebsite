@@ -1,6 +1,8 @@
 +++
 title = "Planet Zoo - Frontier"
 aliases = ["pz", ]
+weight = 70
+featureimage = "images/thumb-planet-zoo.jpg"
 +++
 
 On Planet Zoo I worked as an Animation Programmer. We had a vast amount of animals of all shapes and sizes to make. My biggest contribution to this project was a proprietry animation retargeting system. This enabled sharing of animation with quick modification, crucial for a game with roughly 150 animals each with 200 animation at launch. 

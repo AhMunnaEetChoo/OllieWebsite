@@ -1,0 +1,65 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $author := .Site.Params.Author }}
+{{ $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ if .Site.Params.list.orderByWeight | default false }}
+  {{ $posts = $posts.ByWeight }}
+{{ else }}
+  {{ $posts = $posts.ByDate.Reverse }}
+{{ end }}
+
+<div class="split-home">
+  <aside class="split-home__profile" aria-label="Profile">
+    <header class="split-home__profile-header">
+      {{ with $author.image }}
+        {{ $authorImage := "" }}
+        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+          {{ $authorImage = resources.GetRemote . }}
+        {{ else }}
+          {{ $authorImage = resources.Get . }}
+        {{ end }}
+        {{ if $authorImage }}
+          {{ $final := $authorImage }}
+          {{ $squareImage := $authorImage }}
+          {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+            {{ $final = $authorImage.Fill (print "320x320 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+            {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+            {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
+          {{ end }}
+          <img
+            class="split-home__avatar"
+            width="160"
+            height="160"
+            alt="{{ $author.name | default $.Site.Title }}"
+            src="{{ $final.RelPermalink }}"
+            data-zoom-src="{{ $squareImage.RelPermalink }}">
+        {{ end }}
+      {{ end }}
+      <h1 class="split-home__name">{{ $author.name | default .Site.Title }}</h1>
+      {{ with $author.headline }}
+        <p class="split-home__headline">{{ . | markdownify }}</p>
+      {{ end }}
+      <div class="split-home__links">
+        {{ partialCached "author-links.html" . }}
+      </div>
+    </header>
+
+    <section class="split-home__intro prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+  </aside>
+
+  <section class="split-home__posts" aria-labelledby="home-posts-title">
+    <header class="split-home__posts-header">
+      <h2 id="home-posts-title">Posts</h2>
+    </header>
+    {{ if gt (len $posts) 0 }}
+      <div class="split-home__grid">
+        {{ range $posts }}
+          {{ partial "article-link/card.html" . }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="split-home__empty">No posts yet.</p>
+    {{ end }}
+  </section>
+</div>

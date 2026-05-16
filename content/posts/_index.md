@@ -1,6 +1,4 @@
-+++ 
-aliases = ["posts"] 
-title = "posts" 
-author = "Hugo Authors" 
-tags = ["posts"] 
++++
+title = "Posts"
+aliases = ["/projects/"]
 +++

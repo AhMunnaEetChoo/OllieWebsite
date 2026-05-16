@@ -1,6 +1,8 @@
 +++
 title = "Number 1 at Super Hexagon"
 aliases = ["super hexagon", ]
+weight = 90
+featureimage = "images/thumb-super-hexagon.jpg"
 +++
 
 In 2012 I got absorbed by Terry Cavanagh's fantastic twitch game - Super Hexagon. So absorbed I became number 1 in the world at all levels for a few months.

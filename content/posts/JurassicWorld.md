@@ -1,6 +1,8 @@
 +++
 title = "Jurrasic World Evolution - Frontier"
 aliases = ["jwe", ]
+weight = 80
+featureimage = "images/thumb-jurassic-world.jpg"
 +++
 
 On both Jurassic World Evolution 1 and 2 I worked as an Animation Programmer tasked with making convincing dinosaurs. 

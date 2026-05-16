@@ -1,0 +1,30 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ollie Powell"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Games Programmer and Cofounder of Triangle Wave."
+  copyright = "(c) 2023 Ollie Powell"
+
+[params.author]
+  name = "Ollie Powell"
+  email = "olliepowellemail@gmail.com"
+  image = "images/IMG_2320.jpg"
+  headline = "Games Programmer | Cofounder of Triangle Wave."
+  bio = "Games Programmer and Cofounder of Triangle Wave."
+  links = [
+    { github = "https://github.com/ahmunnaeetchoo" },
+    { email = "mailto:olliepowellemail@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/olliepowell/" },
+    { itch-io = "https://ahchoo.itch.io/" },
+    { x-twitter = "https://x.com/ahmunnaeetchoo" },
+    { bluesky = "https://bsky.app/profile/olliepow.bsky.social" },
+  ]
